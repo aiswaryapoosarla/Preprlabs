@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Prepr-Create Project</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="CreateProject2_css.css" rel="stylesheet">
+
+</head>
+<body>
+
+<form action="/action_page.php">
+  <div class="container">
+  
+  
+    <h1>Create Project</h1>
+    
+    <hr>
+	<h3>Building your team</h3>
+	<p>Building a team is important for your project.</p>
+	
+	
+	<label for="recruitingstatus"><b>Recruiting status</b></label>
+    <select name="recruitingstatus" id="rstatus" required>
+	<option value = "selectrecruitingstatus">Select recruiting status for your project</option>
+	<option value = "notcurrentlyrecruiting">Not currently recruiting</option>
+	<option value = "currentlyrecruiting">Currently recruiting</option>
+	
+	</select> <br> <br>
+	
+
+	<label for="requiredskills"><b>Required skills</b></label>
+    <select name="requiredskills" id="reqskills" required>
+	<option value = "wds">Windows Deployment Services (WDS) </option>
+	<option value = "desktopadmin">Windows Desktop Administration</option>
+	<option value = "windowsdomain">Windows Domain</option>
+	<option value = "driverdev">Windows Driver Development</option>
+	<option value = "embedded">Windows Embedded</option>
+	<option value = "explorer">Windows Explorer</option>
+	<option value = "firewall">Windows Firewall</option>
+	<option value = "homeserver">Windows Home Server</option>
+	<option value = "msi">Windows Installer (MSI)</option>
+    <option value = "windowsinternals">Windows Internals</option>
+	</select>
+	
+	<br> <br>
+	<input type="checkbox" name="checkbox" id="cbox">
+	<label for="createprojectteamchat"><b> Create project team chat</b></label>
+	
+	<br><br>
+	
+	<label for="teammembers"><b>Team members</b></label>
+    <select name="teammembers" id="tmembers" required>
+	<option value = "membername1">aiswarya lakshmi</option>
+	<option value = "membername2">Vishal Gandhi</option>
+	<option value = "membername3">Turki Alsulayyi</option>
+	<option value = "membername4">LinZaya Soe</option>
+	<option value = "membername5">Prashant Shrestha</option>
+	<option value = "membername6">Ladi Onasanya</option>
+	<option value = "membername7">Divya Pokhriyal</option>
+	<option value = "membername8">Nataliia Shchur</option>
+	<option value = "membername9">Navjot Gosal</option>
+	<option value = "membername10">Nishi Bharti</option>
+	
+	</select> <br> <br>
+	
+	<label for="positions"><b>Positions</b></label>
+    <input type="text" name="positions" id="positions" required>
+	<br> <br>
+	<input type="checkbox" name="checkbox" id="viewercbox">
+	<label for="viewer"><b>Viewer</b></label> 
+	<br><br>
+	<input type="checkbox" name="checkbox" id="editorcbox">
+	<label for="editor"><b>Editor</b></label> 
+	<br><br>
+	
+  	<input type="radio" id="teamlead" name="teamleader">
+	<label for="teamleader">Team leader</label>
+	<br><br>
+	
+	<button type="submit" class="addbutton"> + Add member</button>
+	<button type="submit" class="createproject"><a href="https://preprlabs.org/explore">Create Project</a></button>
+    <button type="submit" class="backbutton"><a href="C:\AISWARYA\Prepr\Web dvelopment lab\Challenge-3\CreateProject1.html.html">Back</a></button>
+	
+	
+  </div>
+</form>
+
+</body>
+</html>
